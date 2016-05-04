@@ -20,7 +20,7 @@ for (i = 0; i < itemsId.length; i++) {
     addItemButtons[i] = "a.pluscart.ta-" + itemsId[i];
 }
 
-var casper = require('casper').create();
+//var casper = require('casper').create();
 
 phantom.casperTest = true;
 casper.options.viewportSize = {
